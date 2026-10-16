@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: lat-o-lich-su-dang
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./
+    envVars:
+      - key: NODE_ENV
+        value: production
